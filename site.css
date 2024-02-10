@@ -1,0 +1,123 @@
+body{
+    background-color: rgba(160, 207, 244, 0.756);
+    font-family: 'Noto Sans JP', sans-serif;
+    
+    
+}
+
+.quotebox {
+    text-align: center;
+    box-shadow: black 3px 3px 3px;
+    max-width: 500px;
+   
+    width:500px;
+    height:200px;
+    border:burlywood;
+    background-color:white;    
+    border-radius: 20px;
+    
+    top: 50% ;
+    left: 50%;
+   
+    position:absolute;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+
+.footerbox
+{
+    
+    position:absolute;
+    bottom:0;   
+    padding: 10px;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+.footerboxInner
+{
+    margin-left:auto;
+    margin-right:auto;
+    padding:20px;   
+    position:relative;
+    font-size: small;
+}
+
+.quote
+{
+    /* border:1px solid; */
+    text-align:center;
+    position:absolute;
+    top: 50% ;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+
+}
+
+
+
+
+.corner
+{
+    text-align:right;    
+    position:absolute;
+    bottom: 0% ;
+   right:1%;
+   /* border: 1px solid; */
+    transform: translate(0%, -50%);
+}
+
+.cornerBox
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+.shareIt
+{
+    text-align: center;
+    
+    max-width: 400px;   
+    width:400px;
+
+
+    border-radius: 20px;
+    
+    top: 65% ;
+    left: 50%;   
+    margin-top:10px;
+    position:absolute;
+    transform: translate(-50%, -50%);
+    padding: 5px;
+}
+
+
+.nextQuoteButton
+{
+    text-decoration : none;
+    background-color: rgba(157, 150, 150, 0.777);
+    color: black;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.author
+{
+    padding:3px;
+    font-size: 15px;
+ 
+}
+
+.nextQuote{
+    padding:3px;
+}
+
+.share-btn {
+    text-decoration : none;
+    background-color: rgba(157, 150, 150, 0.777);
+    color: black;
+    padding: 5px;
+    border-radius: 20px;
+}
